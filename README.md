@@ -1,4 +1,4 @@
-# shoushiling
+# shoushiling game
 
 import random         
 
@@ -13,7 +13,7 @@ else:
 
 user_choice = input('rock, paper or scissors? ')       
                                                        
-winner = '' #configura a variável winner
+winner = '' 
 
 if computer_choice == user_choice:
     winner = 'Tie'
